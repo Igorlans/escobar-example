@@ -1,0 +1,28 @@
+.header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    font-family: 'Gilroy Medium';
+    text-shadow: rgba(253,255,199,0.95) 0px 0px 40px;
+    font-size: 32px;
+    letter-spacing: 4px;
+  }
+  &__cart {
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__logout {
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}

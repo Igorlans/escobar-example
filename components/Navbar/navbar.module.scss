@@ -1,0 +1,36 @@
+.navbar {
+  margin-top: 10px;
+  display: flex;
+  white-space: nowrap;
+  overflow-y: visible;
+  overflow-x: auto;
+  margin-right: -15px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  &__item {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 25px;
+    padding: 3px 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: #2a2a2a;
+    border: 1px solid rgba(63, 61, 61, 0.03);
+    transition: all 0.2s linear;
+  }
+  &__item_active {
+    text-shadow: rgba(253,255,199,0.95) 0px 0px 5px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: #2a2a2a;
+    border: 1px solid rgba(32, 31, 31, 0.03);
+  }
+  &__item:hover {
+    @extend  .navbar__item_active;
+  }
+}

@@ -1,0 +1,35 @@
+.category {
+  margin: 20px 0;
+  &:last-child {
+    padding-bottom: 250px;
+  }
+  &--list {
+    margin-bottom: 0;
+  }
+  &__title {
+    font-family: 'Gilroy Medium';
+    font-size: 22px;
+    letter-spacing: 3px;
+    //text-shadow: rgba(253,255,199,0.95) 0px 0px 5px;
+    margin-bottom: 20px;
+  }
+  &__products {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: -15px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &--list {
+      display: flex;
+      flex-direction: column;
+    }
+    &--block {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

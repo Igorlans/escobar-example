@@ -1,0 +1,15 @@
+.select {
+    min-width: 50%;
+    margin: 5px 0 15px;
+    padding: 5px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    &.focus-visible {
+        outline: none;
+    }
+    &.focus {
+        outline: none;
+    }
+}

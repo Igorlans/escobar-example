@@ -1,0 +1,43 @@
+.login {
+    display: flex;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    &__body {
+        width: 90%;
+        max-width: 450px;
+        padding: 30px;
+        border-radius: 16px;
+        background: #2a2a2a;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+    &__input {
+        margin-bottom: 15px;
+        font-size: 14px;
+        border-radius: 5px;
+        border: none;
+        padding: 5px 8px;
+        &:focus {
+            outline: none;
+        }
+    }
+    &__submit {
+        margin-top: 15px;
+        align-self: flex-end;
+        border: none;
+        color: #fff;
+        padding: 5px 15px;
+        border-radius: 10px;
+        background: #1a1a1a;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}

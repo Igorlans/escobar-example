@@ -1,0 +1,23 @@
+.products {
+    margin-top: 50px;
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .search {
+        font-size: 14px;
+        border: none;
+        color: #fff;
+        background: #2a2a2a;
+        border-radius: 14px;
+        padding: 8px 10px;
+        max-width: 170px;
+        &:focus {
+            outline: none;
+        }
+        &::placeholder {
+            color: #737373;
+        }
+    }
+}
